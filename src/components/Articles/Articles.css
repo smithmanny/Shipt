@@ -1,0 +1,35 @@
+.articles {
+    padding-top: 90px;
+}
+.articles h1 {
+    text-align: center;
+    color: #414042;
+}
+
+.articles-post {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.post {
+    max-width: 344px;
+    min-width: 300px;
+    margin: auto;
+    padding: 10px 5px;
+    text-align: center;
+    flex: 1;
+}
+.post img {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+
+.article-btn {
+    text-align: center;
+}
+.article-btn button {
+    margin-top: 60px;
+}

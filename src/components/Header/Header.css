@@ -1,0 +1,17 @@
+.nav-wrapper {
+  box-shadow: var(--shadow);
+}
+.nav {
+    display: flex;
+    padding: 15px 24px;
+    align-items: center;
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+  }
+  .logo__wrapper {
+    flex: 1;
+  }
+  .logo__wrapper img {
+    max-width: 102px;
+  }

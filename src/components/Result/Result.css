@@ -1,0 +1,30 @@
+.result-wrapper {
+  margin: 32px auto 0 auto;
+  text-align: center;
+}
+.result-wrapper h5 {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.results {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.result {
+    margin: auto;
+    padding: 0 20px;
+    min-width: 300px;
+}
+.result h2 {
+  color: #414042;
+}
+.result p {
+  color: #7b7b7b;
+}
+.result-btn {
+  text-align: center;
+  margin-top: 60px;
+}

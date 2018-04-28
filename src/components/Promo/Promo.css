@@ -1,0 +1,41 @@
+.promo {
+  flex: 1;
+  background: url('../../images/bg.png') repeat center center;
+  padding: 69px 24px;
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+}
+.promo-content {
+  max-width: 400px;
+  margin: auto;
+}
+.promo-title h2 {
+  margin: 0;
+  font-size: 48px;
+}
+.promo-title p {
+  font-size: 20px;
+}
+.promo-action__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-zipcode,
+.promo-btn {
+  width: 100% !important;
+}
+.input-zipcode input,
+.promo-btn {
+  width: 100%;
+  height: 48px;
+}
+.promo-btn {
+  margin: 16px 0;
+  text-align: center;
+}
+.legal {
+  font-size: 10px;
+}
